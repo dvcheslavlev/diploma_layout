@@ -80,7 +80,8 @@ $(function(){
         },  400);
     });
 
-    recallBtn.click(function(){
+    recallBtn.click(function(event){
+        event.preventDefault();
         $('.popup__container').css('background', 'linear-gradient(0deg, rgba(242, 101, 34, 0.9), rgba(250, 8, 145, 0.05))');
         $('.recall-form__container').css('display', 'flex');
         $('.popup__container').fadeIn(600, disableScroll);

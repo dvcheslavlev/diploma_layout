@@ -65,6 +65,10 @@ input {
   font-size: inherit;
 }
 
+input[type="submit"] {
+   cursor: pointer;
+}
+
 button {
   cursor: pointer;
 }
