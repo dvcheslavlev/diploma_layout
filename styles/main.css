@@ -281,6 +281,9 @@
 	width: 200px;
 	height: 50px;
 	margin: 20px auto;
+	color: #ffffff;
+	background-color: #ff4e2e;
+	text-align: center;
 	line-height: 42px;
 	font-size: 14px;
 	border-radius: 5px;
