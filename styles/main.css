@@ -266,6 +266,7 @@
 
 #client-name, #client-email, #client-phone-number  {
 	width: 100%;
+	padding-left: 10px;
 	border: 1px solid #ff4e2e;
 	border-radius: 5px;
 	line-height: 2;
