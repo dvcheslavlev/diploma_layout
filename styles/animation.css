@@ -1,0 +1,254 @@
+@keyframes fly_symbol_5 {
+	from {
+		bottom: 0px;
+		left: 350px;
+	}
+
+	to {
+		transform: translateY(-600px);
+		transform: translateX(-150px);
+		bottom: 600px;
+		left: 500px;
+		transform: rotate(-390deg);
+	}
+}
+
+@keyframes fly_symbol_5-tablet {
+	from {
+		bottom: 0px;
+		left: 350px;
+	}
+
+	to {
+		transform: translateY(-580px);
+		transform: translateX(-550px);
+		bottom: 580px;
+		left:900px;
+		transform: rotate(-380deg);
+	}
+}
+
+@keyframes fly_symbol_5-mobile_wide {
+	from {
+		bottom: 235px;
+		left: 50%;
+	}
+
+	to {
+		transform: translateY(85%);
+		transform: translateX(85%);
+		bottom: 85%;
+		left: 85%;
+		transform: rotate(375deg);
+	}
+}
+
+@keyframes fly_symbol_5-mobile_small {
+	from {
+		bottom: 250px;
+		left: 50%;
+	}
+
+	to {
+		transform: translateY(92%);
+		transform: translateX(75%);
+		bottom: 92%;
+		left: 75%;
+		transform: rotate(375deg);
+	}
+}
+
+@keyframes fly_symbol_4 {
+	from {
+		bottom: 0px;
+		left: 350px;
+	}
+
+	to {
+		transform: translateY(-180px);
+		transform: translateX(-250px);
+		bottom: 180px;
+		left: 600px;
+		transform: rotate(390deg);
+	}
+}
+
+@keyframes fly_symbol_4_wide {
+	from {
+		bottom: 0px;
+		left: 350px;
+	}
+
+	to {
+		transform: translateY(-180px);
+		transform: translateX(-70px);
+		bottom: 180px;
+		left: 420px;
+		transform: rotate(390deg);
+	}
+}
+
+@keyframes fly_symbol_4-tablet {
+	from {
+		bottom: 0px;
+		left: 350px;
+	}
+
+	to {
+		transform: translateY(-500px);
+		transform: translateX(-100px);
+		bottom: 500px;
+		left: 450px;
+		transform: rotate(390deg);
+	}
+}
+
+@keyframes fly_symbol_4-mobile_wide {
+	from {
+		bottom: 235px;
+		left: 50%;
+	}
+
+	to {
+		transform: translateY(97%);
+		transform: translateX(40%);
+		bottom: 97%;
+		left: 35%;
+		transform: rotate(375deg);
+	}
+}
+
+@keyframes fly_symbol_4-mobile_small {
+	from {
+		bottom: 250px;
+		left: 50%;
+	}
+
+	to {
+		transform: translateY(96%);
+		bottom: 96%;
+		left: 50%;
+		transform: rotate(375deg);
+	}
+}
+
+@keyframes fly_symbol_3 {
+	from {
+		bottom: 0px;
+		left: 350px;
+	}
+
+	to {
+		transform: translateY(-50px);
+		bottom: 50px;
+		left: 350px;
+		transform: rotate(-375deg);
+	}
+}
+
+@keyframes fly_symbol_3-tablet {
+	from {
+		bottom: 0px;
+		left: 350px;
+	}
+
+	to {
+		transform: translateX(-50px);
+		transform: translateY(-150px);
+		bottom: 150px;
+		left: 400px;
+		transform: rotate(-375deg);
+	}
+}
+
+@keyframes fly_symbol_2 {
+	from {
+		bottom: 0px;
+		left: 350px;
+	}
+
+	to {
+		transform: translateY(-100px);
+		transform: translateX(130px);
+		bottom: 100px;
+		left: 120px;
+		transform: rotate(375deg);
+	}
+}
+
+@keyframes fly_symbol_2-mobile_wide {
+	from {
+		bottom: 235px;
+		left: 50%;
+	}
+
+	to {
+		transform: translateY(75%);
+		transform: translateX(10%);
+		bottom: 75%;
+		left: 10%;
+		transform: rotate(375deg);
+	}
+}
+
+@keyframes fly_symbol_2-mobile_small {
+	from {
+		bottom: 250px;
+		left: 50%;
+	}
+
+	to {
+		transform: translateY(80%);
+		transform: translateX(15%);
+		bottom: 80%;
+		left: 15%;
+		transform: rotate(375deg);
+	}
+}
+
+@keyframes fly_symbol_1 {
+	from {
+		bottom: 0px;
+		left: 350px;
+	}
+
+	to {
+		transform: translateY(-600px);
+		transform: translateX(290px);
+		bottom: 600px;
+		left: 60px;
+		transform: rotate(375deg);
+	}
+}
+
+@keyframes fly_symbol_1-mobile_wide {
+	from {
+		bottom: 235px;
+		left: 50%;
+	}
+
+	to {
+		transform: translateY(90%);
+		transform: translateX(15%);
+		bottom: 90%;
+		left: 15%;
+		transform: rotate(375deg);
+	}
+}
+
+@keyframes fly_symbol_1-mobile_small {
+	from {
+		bottom: 177px;
+		left: 50%;
+	}
+
+	to {
+		transform: translateY(92%);
+		transform: translateX(23%);
+		bottom: 92%;
+		left: 23%;
+		transform: rotate(375deg);
+	}
+}
+
+
