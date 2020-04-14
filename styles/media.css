@@ -38,11 +38,16 @@
 
 
 .intro__symbol_4 {
-	animation: fly_symbol_4_wide;
-	animation-duration: 1.5s;
-	animation-iteration-count: 1;
-	animation-timing-function: ease-out;
-	animation-fill-mode: forwards;
+	-webkit-animation: fly_symbol_4_wide;
+	        animation: fly_symbol_4_wide;
+	-webkit-animation-duration: 1.5s;
+	        animation-duration: 1.5s;
+	-webkit-animation-iteration-count: 1;
+	        animation-iteration-count: 1;
+	-webkit-animation-timing-function: ease-out;
+	        animation-timing-function: ease-out;
+	-webkit-animation-fill-mode: forwards;
+	        animation-fill-mode: forwards;
 }
 
 .price-banner__symbol_1, .price-banner__symbol_4 {
@@ -51,6 +56,7 @@
 
 .dev-name {
 	font-size: 54px;
+}
 }
 
 @media (max-width: 1024px) {
@@ -86,11 +92,16 @@
 }
 
 .intro__symbol_3 {
-	animation: fly_symbol_3-tablet;
-	animation-duration: 1.3s;
-	animation-iteration-count: 1;
-	animation-timing-function: ease-out;
-	animation-fill-mode: forwards;
+	-webkit-animation: fly_symbol_3-tablet;
+	        animation: fly_symbol_3-tablet;
+	-webkit-animation-duration: 1.3s;
+	        animation-duration: 1.3s;
+	-webkit-animation-iteration-count: 1;
+	        animation-iteration-count: 1;
+	-webkit-animation-timing-function: ease-out;
+	        animation-timing-function: ease-out;
+	-webkit-animation-fill-mode: forwards;
+	        animation-fill-mode: forwards;
 }
 
 .intro__symbol_4::before {
@@ -98,24 +109,37 @@
 }
 
 .intro__symbol_4 {
-	animation: fly_symbol_4-tablet;
-	animation-duration: 1.5s;
-	animation-iteration-count: 1;
-	animation-timing-function: ease-out;
-	animation-fill-mode: forwards;
+	-webkit-animation: fly_symbol_4-tablet;
+	        animation: fly_symbol_4-tablet;
+	-webkit-animation-duration: 1.5s;
+	        animation-duration: 1.5s;
+	-webkit-animation-iteration-count: 1;
+	        animation-iteration-count: 1;
+	-webkit-animation-timing-function: ease-out;
+	        animation-timing-function: ease-out;
+	-webkit-animation-fill-mode: forwards;
+	        animation-fill-mode: forwards;
 }
 
 .intro__symbol_5 {
-	animation: fly_symbol_5-tablet;
-	animation-duration: 1.5s;
-	animation-iteration-count: 1;
-	animation-timing-function: ease-out;
-	animation-fill-mode: forwards;
+	-webkit-animation: fly_symbol_5-tablet;
+	        animation: fly_symbol_5-tablet;
+	-webkit-animation-duration: 1.5s;
+	        animation-duration: 1.5s;
+	-webkit-animation-iteration-count: 1;
+	        animation-iteration-count: 1;
+	-webkit-animation-timing-function: ease-out;
+	        animation-timing-function: ease-out;
+	-webkit-animation-fill-mode: forwards;
+	        animation-fill-mode: forwards;
 }
 
 .jobs-list {
-	flex-wrap: wrap;
-	justify-content: center;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
 }
 
 .jobs-list__item:nth-child(n+3) {
@@ -179,19 +203,29 @@
 }
 
 .intro__symbol_1 {
-	animation: fly_symbol_1-mobile_wide;
-	animation-duration: 1s;
-	animation-iteration-count: 1;
-	animation-timing-function: ease-out;
-	animation-fill-mode: forwards;
+	-webkit-animation: fly_symbol_1-mobile_wide;
+	        animation: fly_symbol_1-mobile_wide;
+	-webkit-animation-duration: 1s;
+	        animation-duration: 1s;
+	-webkit-animation-iteration-count: 1;
+	        animation-iteration-count: 1;
+	-webkit-animation-timing-function: ease-out;
+	        animation-timing-function: ease-out;
+	-webkit-animation-fill-mode: forwards;
+	        animation-fill-mode: forwards;
 }
 
 .intro__symbol_2 {
-	animation: fly_symbol_2-mobile_wide;
-	animation-duration: 1s;
-	animation-iteration-count: 1;
-	animation-timing-function: ease-out;
-	animation-fill-mode: forwards;
+	-webkit-animation: fly_symbol_2-mobile_wide;
+	        animation: fly_symbol_2-mobile_wide;
+	-webkit-animation-duration: 1s;
+	        animation-duration: 1s;
+	-webkit-animation-iteration-count: 1;
+	        animation-iteration-count: 1;
+	-webkit-animation-timing-function: ease-out;
+	        animation-timing-function: ease-out;
+	-webkit-animation-fill-mode: forwards;
+	        animation-fill-mode: forwards;
 }
 
 .intro__symbol_3 {
@@ -199,29 +233,45 @@
 }
 
 .intro__symbol_4 {
-	animation: fly_symbol_4-mobile_wide;
-	animation-duration: 1s;
-	animation-iteration-count: 1;
-	animation-timing-function: ease-out;
-	animation-fill-mode: forwards;
+	-webkit-animation: fly_symbol_4-mobile_wide;
+	        animation: fly_symbol_4-mobile_wide;
+	-webkit-animation-duration: 1s;
+	        animation-duration: 1s;
+	-webkit-animation-iteration-count: 1;
+	        animation-iteration-count: 1;
+	-webkit-animation-timing-function: ease-out;
+	        animation-timing-function: ease-out;
+	-webkit-animation-fill-mode: forwards;
+	        animation-fill-mode: forwards;
 }
 
 .intro__symbol_5 {
-	animation: fly_symbol_5-mobile_wide;
-	animation-duration: 1s;
-	animation-iteration-count: 1;
-	animation-timing-function: ease-out;
-	animation-fill-mode: forwards;
+	-webkit-animation: fly_symbol_5-mobile_wide;
+	        animation: fly_symbol_5-mobile_wide;
+	-webkit-animation-duration: 1s;
+	        animation-duration: 1s;
+	-webkit-animation-iteration-count: 1;
+	        animation-iteration-count: 1;
+	-webkit-animation-timing-function: ease-out;
+	        animation-timing-function: ease-out;
+	-webkit-animation-fill-mode: forwards;
+	        animation-fill-mode: forwards;
 }
 
 .foto-wrap {
-	flex-wrap: wrap;
-	flex-direction: row-reverse;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: reverse;
+	    -ms-flex-direction: row-reverse;
+	        flex-direction: row-reverse;
 	padding: 0;
 }
 
 .foto-wrap__foto-container {
-	order: 1;
+	-webkit-box-ordinal-group: 2;
+	    -ms-flex-order: 1;
+	        order: 1;
 	margin-right: 20px;
 }
 
@@ -232,7 +282,9 @@
 
 .foto-wrap__name-container {
 	padding: 20px 20px 0 20px;
-	order: 2;
+	-webkit-box-ordinal-group: 3;
+	    -ms-flex-order: 2;
+	        order: 2;
 	width: 100%;
 	background-color: #fbfbfb;
 }
@@ -265,7 +317,10 @@
 }
 
 .jobs-list {
-	flex-direction: column;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
 	margin: 50px 0;
 }
 
@@ -283,7 +338,9 @@
 }
 
 .jobs-list__item-img img:hover {
-	transform: none;
+	-webkit-transform: none;
+	    -ms-transform: none;
+	        transform: none;
 }
 
 .jobs-list__item-description a:hover, .example__item__description a:hover {
@@ -332,7 +389,10 @@
 
 .footer-content {
 	padding: 40px 20px 50px 20px;
-	flex-direction: column;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
 }
 
 .footer-menu {
@@ -367,6 +427,8 @@
 .phone-us-btn:hover {
 	color: #ffffff;
 	background-color: #ff4e2e;
+	-webkit-transition: none;
+	-o-transition: none;
 	transition: none;
 }
 
@@ -374,6 +436,8 @@
 	color: #ffffff;
 	background-color: #ff4e2e;
 	border: none;
+	-webkit-transition: none;
+	-o-transition: none;
 	transition: none;
 }
 
@@ -381,6 +445,8 @@
 .icon-facebook:hover, 
 .icon-twitter-bird:hover, 
 .icon-instagram:hover {
+	-webkit-transition: none;
+	-o-transition: none;
 	transition: none;
 	font-size: 22px;
 	color: #8993ad;
@@ -409,23 +475,35 @@
 }
 
 .socials-wrap {
-	align-self: center;
+	-ms-flex-item-align: center;
+	    -ms-grid-row-align: center;
+	    align-self: center;
 }
 
 .intro__symbol_1 {
-	animation: fly_symbol_1-mobile_small;
-	animation-duration: 1s;
-	animation-iteration-count: 1;
-	animation-timing-function: ease-out;
-	animation-fill-mode: forwards;
+	-webkit-animation: fly_symbol_1-mobile_small;
+	        animation: fly_symbol_1-mobile_small;
+	-webkit-animation-duration: 1s;
+	        animation-duration: 1s;
+	-webkit-animation-iteration-count: 1;
+	        animation-iteration-count: 1;
+	-webkit-animation-timing-function: ease-out;
+	        animation-timing-function: ease-out;
+	-webkit-animation-fill-mode: forwards;
+	        animation-fill-mode: forwards;
 }
 
 .intro__symbol_2 {
-	animation: fly_symbol_2-mobile_small;
-	animation-duration: 1s;
-	animation-iteration-count: 1;
-	animation-timing-function: ease-out;
-	animation-fill-mode: forwards;
+	-webkit-animation: fly_symbol_2-mobile_small;
+	        animation: fly_symbol_2-mobile_small;
+	-webkit-animation-duration: 1s;
+	        animation-duration: 1s;
+	-webkit-animation-iteration-count: 1;
+	        animation-iteration-count: 1;
+	-webkit-animation-timing-function: ease-out;
+	        animation-timing-function: ease-out;
+	-webkit-animation-fill-mode: forwards;
+	        animation-fill-mode: forwards;
 }
 
 .intro__symbol_3 {
@@ -433,20 +511,30 @@
 }
 
 .intro__symbol_4 {
-	animation: fly_symbol_4-mobile_small;
-	animation-duration: 1s;
-	animation-iteration-count: 1;
-	animation-timing-function: ease-out;
-	animation-fill-mode: forwards;
+	-webkit-animation: fly_symbol_4-mobile_small;
+	        animation: fly_symbol_4-mobile_small;
+	-webkit-animation-duration: 1s;
+	        animation-duration: 1s;
+	-webkit-animation-iteration-count: 1;
+	        animation-iteration-count: 1;
+	-webkit-animation-timing-function: ease-out;
+	        animation-timing-function: ease-out;
+	-webkit-animation-fill-mode: forwards;
+	        animation-fill-mode: forwards;
 }
 
 .intro__symbol_5 {
-	animation: fly_symbol_5-mobile_small;
-	animation-duration: 1s;
-	animation-iteration-count: 1;
-	animation-timing-function: ease-out;
-	animation-fill-mode: forwards;
+	-webkit-animation: fly_symbol_5-mobile_small;
+	        animation: fly_symbol_5-mobile_small;
+	-webkit-animation-duration: 1s;
+	        animation-duration: 1s;
+	-webkit-animation-iteration-count: 1;
+	        animation-iteration-count: 1;
+	-webkit-animation-timing-function: ease-out;
+	        animation-timing-function: ease-out;
+	-webkit-animation-fill-mode: forwards;
+	        animation-fill-mode: forwards;
 }
-
+}
 
 
