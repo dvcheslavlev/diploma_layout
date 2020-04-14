@@ -1,11 +1,13 @@
 html {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 *,
 *::before,
 *::after {
-  box-sizing: inherit;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
 }
 
 body {
@@ -65,7 +67,7 @@ input {
   font-size: inherit;
 }
 
-input[type="submit"] {
+input[type="submit"], button {
    cursor: pointer;
 }
 
@@ -91,14 +93,14 @@ button {
 }
 
 .flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 100%;
   max-width: 1250px;
   min-width: 320px;
   margin: 0 auto;
 }
-
-
 
 
 

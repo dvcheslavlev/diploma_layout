@@ -1,7 +1,8 @@
 
-
 .footer-content {
-	justify-content: space-between;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
 	padding: 80px 0 90px 0;
 }
 
@@ -70,10 +71,11 @@
 .icon-facebook:hover, 
 .icon-twitter-bird:hover, 
 .icon-instagram:hover {
+	-webkit-transition: 0.3s;
+	-o-transition: 0.3s;
 	transition: 0.3s;
 	font-size: 26px;
 	color: #ff4e2e;
 }
-
 
 
