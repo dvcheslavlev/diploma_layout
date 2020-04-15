@@ -88,6 +88,21 @@ $(function(){
         $('.recall-form__container').fadeIn(300);
     });
 
+    $('.recall-form').submit(function(event) {
+        var $form = $(this);
+        event.preventDefault();
+        $.post(
+        $form.attr('action'), 
+        $form.serialize()     
+        );
+        $('#client-name').val('');
+        $('#client-email').val('');
+        $('#client-phone-number').val('');
+        $('#pdata-agreement').prop('checked', false);
+        $('.recall-form__container').fadeOut(50);
+        $('.form-submit-success').fadeIn();
+    });
+
     $('.popup__container').click(function(event){
         if(event.target == this) {
             $(this).fadeOut(400);
@@ -95,10 +110,12 @@ $(function(){
             $('.dropdown-menu').animate({
                 left: '-220',
             },  400);
+            $('.recall-form__container').fadeOut(200, enableScroll);
+            $('.form-submit-success').fadeOut(200, enableScroll);
             $('#client-name').val('');
             $('#client-email').val('');
             $('#client-phone-number').val('');
-            $('.recall-form__container').fadeOut(200, enableScroll);
+            $('#pdata-agreement').prop('checked', false);
         }
     });
 });
