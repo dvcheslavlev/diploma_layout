@@ -305,7 +305,7 @@
 	line-height: 52px;
 }
 
-.jobs {
+#jobs {
 	padding: 50px 0 0;
 	background-color: inherit;
 }
@@ -337,13 +337,13 @@
 	line-height: 24px;
 }
 
-.jobs-list__item-img img:hover {
+.jobs-list__item-img:hover {
 	-webkit-transform: none;
 	    -ms-transform: none;
 	        transform: none;
 }
 
-.jobs-list__item-description a:hover, .example__item__description a:hover {
+.example__item__description a:hover {
 	color: #8993ad;
 	border: none;
 }
@@ -354,7 +354,7 @@
 	margin: 0 auto;
 }
 
-.examples {
+#examples {
 	padding: 100px 0 50px 0;
 }
 
@@ -370,7 +370,7 @@
  	margin-top: 45px;
  }
 
-.price-banner {
+#price-banner {
 	padding: 40px 0;
 }
 
@@ -403,7 +403,7 @@
 	font-size: 16px;
 }
 
-.contacts-wrap {
+.contacts-wrap ul {
 	font-size: 20px;
 	color: #8993ad;
 	font-weight: 500;
@@ -534,6 +534,11 @@
 	        animation-timing-function: ease-out;
 	-webkit-animation-fill-mode: forwards;
 	        animation-fill-mode: forwards;
+}
+
+.footer-bar__copyright small {
+	font-size: 12px;
+	line-height: 40px;
 }
 }
 
