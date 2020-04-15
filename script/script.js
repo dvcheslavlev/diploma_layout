@@ -101,7 +101,12 @@ $(function(){
         $('#pdata-agreement').prop('checked', false);
         $('.recall-form__container').fadeOut(50);
         $('.form-submit-success').fadeIn();
-        return false;
+        function clean() {
+            $('.form-submit-success').fadeOut(200);
+            $('.popup__container').css('background', '').fadeOut(200, enableScroll);
+        }
+        setTimeout(clean, 3000);
+        return false
     });
 
     $('.popup__container').click(function(event){
