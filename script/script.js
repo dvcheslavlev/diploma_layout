@@ -90,7 +90,7 @@ $(function(){
 
     $('.recall-form').submit(function(event) {
         var $form = $(this);
-        event.preventDefault();
+
         $.post(
         $form.attr('action'), 
         $form.serialize()     
@@ -101,6 +101,7 @@ $(function(){
         $('#pdata-agreement').prop('checked', false);
         $('.recall-form__container').fadeOut(50);
         $('.form-submit-success').fadeIn();
+        return false;
     });
 
     $('.popup__container').click(function(event){
